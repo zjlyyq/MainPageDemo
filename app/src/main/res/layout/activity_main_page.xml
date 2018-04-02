@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainPageActivity">
+
+
+    <FrameLayout
+        android:id="@+id/fragment_viewPage"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+    </FrameLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_weight="0.9"
+            android:layout_width="match_parent"
+            android:layout_height="350dp">
+        </FrameLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_weight="0.1"
+            android:layout_width="match_parent"
+            android:layout_height="30dp">
+            <ImageButton
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@mipmap/main_page1"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@mipmap/dindan"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@mipmap/gwc"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <ImageButton
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:background="@mipmap/wode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
